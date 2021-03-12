@@ -1,0 +1,74 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+main{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.container{
+    width: 100%;
+    height: 60vh;
+    background-color: chartreuse;
+    border-top: 80px solid palevioletred;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -50px;
+}
+.col:nth-child(1){
+    width: 25%;
+    background-image: url(https://img.freepik.com/vector-gratis/mando-consola-tecnologia-alta-tecnologia-servicio-juegos-vivo-controlador-videojuegos-joystick-botones-joypad-jugadores-dispositivo-entrada-periferico-ilustracion-metafora-concepto-aislado-vector_335657-4310.jpg?size=338&ext=jpg);
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+.col:nth-child(2){
+    width: 25%;
+    background-image: url(https://lanaenalmeria.files.wordpress.com/2013/04/seta_verde.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+.col:nth-child(3){
+    width: 25%;
+    background-image: url(https://image.freepik.com/vector-gratis/fondo-videojuegos-retro_57490-242.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+.col h2{
+    background-color: rgba(226, 83, 0, 0.329);
+    color: black;
+    font-size: 1.8rem;
+    font-family: cursive;
+    text-align: center;
+}
+.col button{
+    width: 100%;
+    border: none;
+    font-family: cursive;
+    font-size: 1.6rem;
+    background-color: rgba(216, 0, 90, 0.856);
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 225px;
+}
+.col button:hover{
+    background-color: black;
+    color:rgba(216, 0, 90, 0.856);
+    cursor: pointer
+}
